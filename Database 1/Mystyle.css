@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(47, 50, 53);
+    color:white;
+    margin-left: 20px;
+    margin-top: 50px; 
+    }
+/* Dette er koden for den rød streken til høyre */
+/* Background-color er det jeg brukte til å bestemme hvilke farge den skulle være. */
+
+/* Får å bestemme hvor jeg skulle ha streken så satte jeg right og top til null så gjorde jeg left auto sånn at */
+/* streken var automatisk plassert mot høyre. */
+/* Height er suttet til 100% så uansett hvormye nettsiden endrer på størelsen sin så vil den alltid dekke 100% av sin del*/
+.right-side-bar{
+  background-color: red;
+  display:grid;
+  width: 40px;
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 0;
+  height: 100%;
+  }
+
+  /* Dette er koden jeg brukte på toppen. Denne gangen er den ikke laget får å brukes til navigation den brukes kun som pynt. */
+  /* Background-color er det jeg brukte til å bestemme hvilke farge den skulle være. */
+
+  /* Får å bestemme hvor jeg skulle ha streken så satte jeg left, right og top til null så toppen ville være automatisk suttet til toppen. */
+  /* Jeg lot vær å ta på auto på top fordi da endte det opp med at "Kobling virker" kom over streken. */
+  /* Width er suttet til 100% så uansett hvormye nettsiden endrer på størelsen sin så vil den alltid dekke 100% */
+  .top-bar{
+    background-color: red;
+    display:grid;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    }
