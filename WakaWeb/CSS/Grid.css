@@ -1,0 +1,68 @@
+/*Dette er hvordan jeg har satt opp gridsa. Det er noen ting i koden som ikke har en full funksjon, men det var fordi det så litt rart ut med det
+og jeg hviste ikke hvordan jeg skullle fikse det så koden ble sånn at hvis jeg kom på en løsning så var koden klar til å bli endret på.*/
+.grid-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    padding-top: 100px;
+    
+}
+/*Videoen*/
+.q {
+    grid-column: 1/1;
+    height: auto;
+    background-color: rgb(47, 50, 53);
+    width: auto;
+        
+}
+.q iframe {
+    border-style: solid;
+    color: white;
+    width:40vw; 
+    aspect-ratio: 16/9;
+}
+/*Kilde boks*/
+.p {
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 20vw;
+    grid-column: 2/2;
+    border-style: solid;
+}
+/*Ikke i bruk for nå.*/
+.b {
+    display:grid;
+    margin-left: auto;
+    margin-right: auto; 
+    width:400px;
+    height:40px; 
+    
+}
+
+.c {
+    border-style: solid;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: auto;
+    height: auto;
+}
+
+.kjema1 {
+    display: grid;
+    height: 400px;
+    width: 400px;
+}
+.kjema2 {
+    display: grid;
+    height: 400px;
+    width: 400px;
+}
+.kjema3 {
+    display: grid;
+    height: 400px;
+    width: 400px;
+}

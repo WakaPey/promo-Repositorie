@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(47, 50, 53);
+    color:white;
+    margin: 0;   
+    }
+    
+    
+    
+    
+    
+    /* starten av nav bar */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: -10px;
+      overflow: hidden;
+      background-color:red;
+      position: relative;
+      top: 0;
+      width: 97%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color:white;
+      color:black;
+    }
+    
+    /*Slutten av navbar og starten på selve streken(Right side bar)*/
+    
+    .right-side-bar{
+      background-color: red;
+      display:grid;
+      width: 40px;
+      position: absolute;
+      left: auto;
+      right: 0;
+      top: 0;
+      height: 100%;
+      }
+      /*Streken som brukes i konsept html'en*/
+      .right-side-bar2{
+        background-color: red;
+        display:grid;
+        width: 40px;
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: 0;
+        height: 360%;
+        }
+    
+    
+      /*Mitt forsøk på å flytte rundt på overskriften*/
+      .H2 {
+        padding-left: 30px;
+      }
+    
+      
+    
+    
+    
