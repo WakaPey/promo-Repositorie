@@ -1,0 +1,154 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("../Bilder/Space.jpg");
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color:white;
+    margin-left:0px;
+    caret-color: transparent;
+}
+
+.Overskrift {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 720px;
+    font-size: x-large;   
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  
+.item1 {
+    margin-top: 150px;
+    grid-column: 4 ;
+    background-color:#01116F;
+    border-color: black;
+    border-width: 5px;
+    width: 275px;
+    height: 125px;
+    border-style: ridge;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition-duration: 0.4s;
+    }
+
+.item1:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 21px 54px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.item2 {
+    margin-top: 150px;
+    grid-column: 4 ;
+    background-color:#01116F;
+    border-color: black;
+    border-width: 5px;
+    width: 275px;
+    height: 125px;
+    border-style: ridge;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition-duration: 0.4s;
+    }
+
+.item2:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 21px 54px 0 rgba(0,0,0,0.19);
+}
+
+.item3 {
+    margin-top: 150px;
+    grid-column: 4 ;
+    background-color:#01116F;
+    border-color: black;
+    border-width: 5px;
+    width: 275px;
+    height: 125px;
+    border-style: ridge;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition-duration: 0.4s;
+    }
+
+.item3:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 21px 54px 0 rgba(0,0,0,0.19);
+}
+
+.item4 {
+    margin-top: 150px;
+    grid-column: 4 ;
+    background-color:#01116F;
+    border-color: black;
+    border-width: 5px;
+    width: 275px;
+    height: 125px;
+    border-style: ridge;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition-duration: 0.4s;
+    }
+
+.item4:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 21px 54px 0 rgba(0,0,0,0.19);
+}
+
+.item5 {
+    margin-top: 150px;
+    grid-column: 4 ;
+    background-color:#01116F;
+    border-color: black;
+    border-width: 5px;
+    width: 275px;
+    height: 125px;
+    border-style: ridge;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition-duration: 0.4s;
+    }
+
+.item5:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24), 0 21px 54px 0 rgba(0,0,0,0.19);
+}
