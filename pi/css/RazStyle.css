@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(98, 98, 98);
+}
+
+.grid-container { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    'tmå rom name inf'
+    'tmå temp id inf'
+    'tmå try fuk butt'
+    'tmå dia dia butt'
+    'tmå dia dia butt';
+  gap: 30px;
+  text-align: center;
+}
+
+.grid-container > div {
+  background-color: rgba(189, 189, 189, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 { grid-area: tmå; }
+.item2 { grid-area: rom; }
+.item3 { grid-area: temp;}
+.item4 { grid-area: try; }
+.item5 { grid-area: dia; }
+.item6 { grid-area: butt; }
+.item7 { grid-area: inf; }
+.item8 { grid-area: fuk; }
+.item9 { grid-area: name; }
+.item10 { grid-area: id; } 
